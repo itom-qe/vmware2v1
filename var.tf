@@ -21,7 +21,7 @@ variable "user"                     {
 }
 variable "password"                 {
     default = "cmp#VxB@N7SM"
-}
+} 
 variable "vsphere_server"           {
     default = "10.198.1.13"
 }
