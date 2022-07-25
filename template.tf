@@ -23,7 +23,7 @@ data "vsphere_network" "network" {
   datacenter_id             = data.vsphere_datacenter.dc.id
 }
 data "vsphere_virtual_machine" "vm_template" {
-  name                      = "windows2012"
+  name                      = "win2k16"
   datacenter_id             = data.vsphere_datacenter.dc.id
 }
 
